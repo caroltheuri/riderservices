@@ -1,0 +1,42 @@
+/*#body {
+  width: auto;
+}
+#signup img {
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}*/
+html,body{
+  height:100%;
+  max-width:auto;
+  background-image: url("../images/pexels-photo-120049.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#signupdetails{
+  width:500px;
+  height:400px;
+  background-color:#000066;
+  border-radius: 4px;
+  margin: 0 auto;
+  margin-top: 150px;
+  opacity:0.7;
+
+}
+#signupdetails img{
+  margin-top: -60px;
+  margin-bottom: 10px;
+}
+input{
+  height:40px;
+  width: 250px;
+  font-size:30px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  text-align: center;
+
+}
+.form-input{
+  font-size: 15px;
+  font-weight: 900;
+}

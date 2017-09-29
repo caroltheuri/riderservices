@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bookride.css" >
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link href="https://fonts.googleapis.com/css?family=Pangolin" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/script.js"></script>
+    <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us16.list-manage.com","uuid":"28a7003ed3d60a333445d8d33","lid":"947daf181c"}) })</script>
+    <title>Quick Ride</title>
+  </head>
+  <body>
+<section>
+<div>
+      <nav class=" navbar navbar-inverse" >
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="index.html">Quick Ride</a>
+          </div>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="ride.html">Book Ride/Be the Rider</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Contact us</a></li>
+          </ul>
+        </div>
+      </nav>
+     </div>
+   </section>
+
+   <!-- this section allows a user to either book a ride or be the driver -->
+   <section>
+     <!-- start of booking process -->
+     <div class="container-fluid text-center" id="booking">
+       <h1>Welcome Friend, What do you want to do Today?<span class="bookride">Book a ride</span> or <span class="beride">Be the driver.</span></h1>
+     <!-- this is start of the division that allows a user to book a ride. -->
+     <div id="bookride">
+        <h2>Choose from the list below to Book a Ride</h2>
+        <div class=floatobjects>
+          <img src="images/profile.png" alt=""><br><br>
+          <ul id="contacts">
+
+          </ul>
+          <input type="button" value= "Book now" id="button"/>
+          </div>
+        <div class=floatobjects>
+          <img src="images/profile.png" alt=""><br><br>
+          <ul>
+            <p>Contacts:0722098163</p>
+            <p>Origin:Thika</p>
+            <p>Destination:Nairobi</p>
+            <p>Capacity:6</p>
+          </ul>
+          <input type="button" value= "Book now" id="button2"/>
+        </div>
+        <div class=floatobjects>
+          <img src="images/profile.png" alt=""><br><br>
+          <ul>
+            <p>Contacts:0790123242</p>
+            <p>Origin:Thika</p>
+            <p>Destination:Makongeni</p>
+            <p>Capacity:5</p>
+          </ul>
+          <input type="button" value= "Book now" id="button3"/>
+        </div>
+        <div class=floatobjects>
+          <img src="images/profile.png" alt=""><br><br>
+          <ul>
+            <p>Contacts:0722456701</p>
+            <p>Origin:Makongeni</p>
+            <p>Destination:Kilimambogo</p>
+            <p>Capacity:8</p>
+          </ul>
+        <input type="button" value= "Book now" id="button4"/>
+          </div>
+        <div class=floatobjects>
+          <img src="images/profile.png" alt=""><br><br>
+          <ul>
+            <p>Contacts:0712342345</p>
+            <p>Origin:Makongeni</p>
+            <p>Destination:Kitui</p>
+            <p>Capacity:9</p>
+          </ul>
+        <input type="button" value= "Book now" id="button5"/>
+        </div>
+        <div class=floatobjects>
+          <img src="images/profile.png" alt=""><br><br>
+          <ul>
+            <p>Contacts:0718234344</p>
+            <p>Origin:Thika</p>
+            <p>Destination:section9</p>
+            <p>Capacity:6</p>
+          </ul>
+        <input type="button" value= "Book now" id="button6"/>
+        </div>
+        <div class=floatobjects>
+          <img src="images/profile.png" alt=""><br><br>
+          <ul>
+            <p>Contacts:0718234567</p>
+            <p>Origin:Thika</p>
+            <p>Destination:nyeri</p>
+            <p>Capacity:10</p>
+          </ul>
+          <input type="button" value= "Book now" id="button7"/>
+        </div>
+        </div>
+      </div>
+     <!-- end of the division that allows a user to book a ride -->
+
+     <!-- start of division that allows a user to give rides to people -->
+     <div  class="container-fluid text-center" id="bethedriver">
+       <!-- form that allows a user to enter critical information when they want to give a ride -->
+     <h2>Be the Driver</h2>
+     <form id="rider">
+
+       <div class="form-input">
+         <input type="text" name="origin" id="origin" placeholder="Enter your origin">
+       </div><br>
+       <div class="form-input">
+         <input type="text" name="destination" id="destination" placeholder="Enter your destination">
+       </div><br>
+       <div class="form-input">
+         <input type="number" name="capacity" id="capacity" placeholder="Enter the capacity of your vehicle">
+       </div><br>
+       <div class="form-input">
+         <input type="number" name="phonenumber" id="phonenumber" placeholder="Enter your phonenumber">
+       </div><br>
+       <button type="submit" class="btn btn-primary btn-lg" id="button">Be the rider</button>
+     </form>
+     </div>
+     <!-- end of division that allows a user to give rides to people -->
+
+     </div>
+     <!-- end of booking process -->
+
+   </section>
+ </body>
+ </html>
